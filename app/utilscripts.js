@@ -552,6 +552,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "dojo/resources"), path.join(to, "arcgis-js-api/dojo/resources"));
   docopy(path.join(from, "dojo/dojo.js"), path.join(to, "arcgis-js-api/dojo/dojo.js"));
   docopy(path.join(from, "dojo/nls"), path.join(to, "arcgis-js-api/dojo/nls"));
+  docopy(path.join(from, "dojox/main.js"), path.join(to, "arcgis-js-api/dojox/main.js"));
   docopy(path.join(from, "dojox/gfx/svg.js"), path.join(to, "arcgis-js-api/dojox/gfx/svg.js"));
   docopy(path.join(from, "dojox/grid/resources"), path.join(to, "arcgis-js-api/dojox/grid/resources"), null, copyImageTest);
   docopy(path.join(from, "dojox/layout/resources"), path.join(to, "arcgis-js-api/dojox/layout/resources"), null, copyImageTest);
@@ -559,6 +560,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "dojox/layout/resources/ResizeHandle.css"), path.join(to, "arcgis-js-api/dojox/layout/resources/ResizeHandle.css"));
   docopy(path.join(from, "esri/css"), path.join(to, "arcgis-js-api/esri/css"));
   docopy(path.join(from, "esri/dijit"), path.join(to, "arcgis-js-api/esri/dijit"), null, copyImageTest);
+  docopy(path.join(from, "esri/geometry"), path.join(to, "arcgis-js-api/esri/geometry"));
   docopy(path.join(from, "esri/images"), path.join(to, "arcgis-js-api/esri/images"));
   docopy(path.join(from, "esri/main.js"), path.join(to, "arcgis-js-api/esri/main.js"));
   docopy(path.join(from, "esri/layers/VectorTileLayerImpl.js"), path.join(to, "arcgis-js-api/esri/layers/VectorTileLayerImpl.js"));
