@@ -565,6 +565,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "esri/main.js"), path.join(to, "arcgis-js-api/esri/main.js"));
   docopy(path.join(from, "esri/layers/VectorTileLayerImpl.js"), path.join(to, "arcgis-js-api/esri/layers/VectorTileLayerImpl.js"));
   docopy(path.join(from, "esri/layers/vectorTiles"), path.join(to, "arcgis-js-api/esri/layers/vectorTiles"));
+  docopy(path.join(from, "esri/layers/VectorTileLayer.js"), path.join(to, "arcgis-js-api/esri/layers/VectorTileLayer.js"));
   docopy(path.join(from, "esri/layers/nls"), path.join(to, "arcgis-js-api/esri/layers/nls"));
   docopy(path.join(from, "jimu"), path.join(to, "jimu.js"));
   docopy(path.join(from, "themes"), path.join(to, "themes"));
