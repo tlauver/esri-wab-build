@@ -550,6 +550,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "dijit/themes/claro/claro.css"), path.join(to, "arcgis-js-api/dijit/themes/claro/claro.css"));
   docopy(path.join(from, "dijit/themes/claro"), path.join(to, "arcgis-js-api/dijit/themes/claro"), null, copyImageTest);
   docopy(path.join(from, "dojo/resources"), path.join(to, "arcgis-js-api/dojo/resources"));
+  docopy(path.join(from, "dojo/NodeList-data.js"), path.join(to, "arcgis-js-api/dojo/NodeList-data.js"));
   docopy(path.join(from, "dojo/dojo.js"), path.join(to, "arcgis-js-api/dojo/dojo.js"));
   docopy(path.join(from, "dojo/nls"), path.join(to, "arcgis-js-api/dojo/nls"));
   docopy(path.join(from, "dojo/cldr/nls/en/number.js"), path.join(to, "arcgis-js-api/dojo/cldr/nls/en/number.js"));
