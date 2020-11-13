@@ -560,6 +560,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "dojox/layout/resources"), path.join(to, "arcgis-js-api/dojox/layout/resources"), null, copyImageTest);
   docopy(path.join(from, "dojox/layout/resources/ResizeHandle.css"), path.join(to, "arcgis-js-api/dojox/layout/resources/ResizeHandle.css"));
   docopy(path.join(from, "dojox/layout/resources/ResizeHandle.css"), path.join(to, "arcgis-js-api/dojox/layout/resources/ResizeHandle.css"));
+  docopy(path.join(from, "dojox/widget/ColorPicker/images"), path.join(to, "arcgis-js-api/dojox/widget/ColorPicker/images"));
   docopy(path.join(from, "esri/css"), path.join(to, "arcgis-js-api/esri/css"));
   docopy(path.join(from, "esri/dijit"), path.join(to, "arcgis-js-api/esri/dijit"), null, copyImageTest);
   docopy(path.join(from, "esri/geometry"), path.join(to, "arcgis-js-api/esri/geometry"));
