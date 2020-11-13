@@ -552,6 +552,8 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "dojo/resources"), path.join(to, "arcgis-js-api/dojo/resources"));
   docopy(path.join(from, "dojo/dojo.js"), path.join(to, "arcgis-js-api/dojo/dojo.js"));
   docopy(path.join(from, "dojo/nls"), path.join(to, "arcgis-js-api/dojo/nls"));
+  docopy(path.join(from, "dojo/cldr/nls/en/number.js"), path.join(to, "arcgis-js-api/dojo/cldr/nls/en/number.js"));
+  docopy(path.join(from, "dojo/cldr/nls/en/gregorian.js"), path.join(to, "arcgis-js-api/dojo/cldr/nls/en/gregorian.js"));
   docopy(path.join(from, "dojox/main.js"), path.join(to, "arcgis-js-api/dojox/main.js"));
   docopy(path.join(from, "dojox/gfx/svg.js"), path.join(to, "arcgis-js-api/dojox/gfx/svg.js"));
   docopy(path.join(from, "dojox/grid/resources"), path.join(to, "arcgis-js-api/dojox/grid/resources"), null, copyImageTest);
