@@ -574,6 +574,7 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "esri/config.js"), path.join(to, "arcgis-js-api/esri/config.js"));
   docopy(path.join(from, "esri/tasks/support/pbfDeps.js"), path.join(to, "arcgis-js-api/esri/tasks/support/pbfDeps.js"));
   docopy(path.join(from, "esri/layers/support/webglDeps.js"), path.join(to, "arcgis-js-api/esri/layers/support/webglDeps.js"));
+  docopy(path.join(from, "esri/layers/support/nls/webglDeps_en.js"), path.join(to, "arcgis-js-api/esri/layers/support/nls/webglDeps_en.js"));
   docopy(path.join(from, "esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf"), path.join(to, "arcgis-js-api/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf"));
   docopy(path.join(from, "esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.woff"), path.join(to, "arcgis-js-api/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.woff"));
   docopy(path.join(from, "jimu"), path.join(to, "jimu.js"));
