@@ -572,6 +572,8 @@ function copyAppBuildPackages(from, to) {
   docopy(path.join(from, "esri/layers/VectorTileLayer.js"), path.join(to, "arcgis-js-api/esri/layers/VectorTileLayer.js"));
   docopy(path.join(from, "esri/layers/nls"), path.join(to, "arcgis-js-api/esri/layers/nls"));
   docopy(path.join(from, "esri/config.js"), path.join(to, "arcgis-js-api/esri/config.js"));
+  docopy(path.join(from, "esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf"), path.join(to, "arcgis-js-api/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.ttf"));
+  docopy(path.join(from, "esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.woff"), path.join(to, "arcgis-js-api/esri/themes/calcite/icons/fonts/CalciteWebCoreIcons.woff"));
   docopy(path.join(from, "jimu"), path.join(to, "jimu.js"));
   docopy(path.join(from, "themes"), path.join(to, "themes"));
   docopy(path.join(from, "widgets"), path.join(to, "widgets"));
